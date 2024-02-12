@@ -1,0 +1,13 @@
+CREATE DATABASE LogNReg
+
+USE LogNReg
+
+CREATE TABLE Accounts(
+	FirstName VARCHAR(50) NOT NULL,
+	LastName VARCHAR(50) NOT NULL,
+    Email VARCHAR(50) NOT NULL,
+	ContactNum Int,
+    Username VARCHAR(50) NOT NULL UNIQUE,
+    [Password] VARCHAR(255) NOT NULL,
+	ConPass VARCHAR(255) NOT NULL
+);
